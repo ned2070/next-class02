@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -7,6 +8,11 @@ export default function Home() {
         This website is about me. The first thing to know is that I'm a lazy,
         lazy man.
       </h2>
+      <Link href="/about"> About </Link>
+      <Link href="/example"> Example </Link>
+      <Link href="/newLayout"> New Layout</Link>
+      <Link href="/more"> More </Link>
+      <Link href="/extra"> Extra </Link>
     </main>
   );
 }
